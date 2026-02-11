@@ -37,5 +37,21 @@ Grâce au mode **Autopilote** que j'ai configuré :
 - Il sera **automatiquement** classé dans la bonne rubrique sur la page d'accueil (Physique, Chimie ou IA et Éducation) grâce à son étiquette `categories`.
 
 Plus besoin de toucher à aucun autre fichier !
-- **Fichiers joints / Images** : Glissez-les dans un dossier `docs/assets/` et insérez-les avec `![description](assets/image.png)`.
+
+---
+
+## 4. Insérer des images 🖼️
+Pour ajouter une image dans votre article, c'est très simple :
+
+1. **Déposez votre image** dans le dossier : `docs/assets/images/`
+2. **Utilisez ce code** dans votre texte Markdown :
+   ```markdown
+   ![Description de l'image](assets/images/votre-image.jpg)
+   ```
+   *(Note : Assurez-vous que le nom du fichier est identique, par exemple `schema-ia.png`)*.
+
+---
+
+### Astuces pour gagner du temps :
 - **Anciens articles** : Pour créer un nouvel article, le plus simple est d'ouvrir un article existant, de copier son contenu, et de s'en servir de base.
+- **Preview** : Si vous utilisez VS Code, cliquez sur l'icône de loupe en haut à droite pour voir le rendu avant d'envoyer !
