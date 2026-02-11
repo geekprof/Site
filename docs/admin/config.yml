@@ -1,10 +1,9 @@
 backend:
   name: github
-  repo: geekprof/Site # Votre dépôt GitHub
-  branch: main # Branche à modifier
-  # Pour l'authentification sans Netlify, on utilise souvent un proxy tiers
-  # Ou l'authentification directe GitHub si configurée
-  site_domain: geekprof.github.io
+  repo: geekprof/Site
+  branch: main
+  base_url: https://decap-cms-oauth.vercel.app
+  # L'URL ci-dessus est une passerelle communautaire gratuite
 
 publish_mode: editorial_workflow # Permet de créer des brouillons avant de publier
 
