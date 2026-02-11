@@ -1,10 +1,43 @@
-# Bienvenue sur Site
+# Bienvenue sur le Prof Geek
 
-Ce site regroupe des notes et articles autour de la science, de l’IA et de la pédagogie, publiés en Markdown avec MkDocs Material.
+Ce site regroupe des ressources, des notes et des articles autour de la **Physique-Chimie**, de l'**Intelligence Artificielle** et de la **Pédagogie numérique**.
 
-Consultez le [blog](/blog/) pour parcourir les derniers contenus, et explorez les rubriques via les tags :
+---
 
-- [Physique](/blog/#physique)
-- [Chimie](/blog/#chimie)
-- [IA](/blog/#ia)
-- [Éducation](/blog/#education)
+## Explorer par Rubriques
+
+<div class="grid cards" markdown>
+
+-   :material-atom:{ .lg .middle } __Physique__
+    
+    ---
+    Explorez les concepts de mécanique, thermodynamique et plus.
+    
+    [:octicons-arrow-right-24: Consulter la rubrique](/blog/category/physique/)
+
+-   :material-flask:{ .lg .middle } __Chimie__
+    
+    ---
+    Réactions, équilibres chimiques et expériences pour la classe.
+    
+    [:octicons-arrow-right-24: Consulter la rubrique](/blog/category/chimie/)
+
+-   :material-robot-outline:{ .lg .middle } __Intelligence Artificielle__
+    
+    ---
+    Outils, tutoriels et réflexions sur l'IA dans l'éducation.
+    
+    [:octicons-arrow-right-24: Consulter la rubrique](/blog/category/ia/)
+
+-   :material-school-outline:{ .lg .middle } __Éducation__
+    
+    ---
+    Pédagogie, outils numériques et ressources pour les enseignants.
+    
+    [:octicons-arrow-right-24: Consulter la rubrique](/blog/category/education/)
+
+</div>
+
+---
+
+Consultez directement le [blog](/blog/) pour voir les derniers articles publiés.
