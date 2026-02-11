@@ -5,13 +5,12 @@ categories:
   - Physique
 ---
 
-<!-- more -->
-
 # Exemple d'article en Physique
 
 Cet article présente un exemple simple de dynamique newtonienne.
 Quand une force nette agit sur un objet, son mouvement évolue.
 On relie accélération et masse avec $a = F/m$.
+<!-- more -->
 Cette relation est utile pour modéliser une chute, un lancer ou un déplacement.
 
 $$

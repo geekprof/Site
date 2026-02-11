@@ -5,14 +5,14 @@ categories:
   - Chimie
 ---
 
-<!-- more -->
-
 # Exemple d'article en Chimie
 
 Voici un court rappel sur l’équilibre d’une réaction chimique.
 Pour une réaction simple, on étudie les concentrations au cours du temps.
 Le pH d’une solution est défini par $\mathrm{pH} = -\log_{10}[\mathrm{H_3O^+}]$.
 Cette expression permet d’interpréter acidité et basicité.
+
+<!-- more -->
 
 $$
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
