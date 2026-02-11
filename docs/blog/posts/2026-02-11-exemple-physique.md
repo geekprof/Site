@@ -1,7 +1,7 @@
 ---
 date: 2026-02-11
-tags:
-  - physique
+categories:
+  - Physique
 ---
 
 # Exemple physique

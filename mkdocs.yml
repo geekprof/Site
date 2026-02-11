@@ -17,6 +17,8 @@ nav:
 plugins:
   - search
   - blog:
+      blog_dir: blog
+      post_dir: blog/posts
       archive: true
       categories: true
 
