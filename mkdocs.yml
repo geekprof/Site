@@ -16,13 +16,8 @@ nav:
 
 plugins:
   - blog:
-      blog_dir: blog
-      post_dir: blog/posts
-      archive: true
       categories: true
-      tags: true
-      pagination: true
-      pagination_per_page: 10
+      archive: true
   - search
 
 markdown_extensions:
