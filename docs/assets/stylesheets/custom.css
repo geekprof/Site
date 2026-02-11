@@ -1,21 +1,14 @@
 /* --- NAVIGATION LATÉRALE GAUCHE --- */
 
-/* Masquer les rubriques automatiques du blog (Archive et Catégories) 
-   pour ne garder que notre menu manuel plus propre. */
-.md-nav__item--nested:has([href*="category"]),
-.md-nav__item--nested:has([href*="archive"]),
-.md-nav__link[href*="archive"] {
+/* Masquer les dossiers "Archive" et "Categories" automatiques 
+   injectés par le plugin blog (car on les gère manuellement). */
+.md-nav__item--nested:has(> .md-nav__link[id^="__nav_"]:is(:has(span:contains("Categories")), :has(span:contains("Archive")))) {
     display: none !important;
-}
-
-/* Forcer l'affichage de NOS liens manuels (qui sont au premier niveau) */
-.md-nav>.md-nav__list>.md-nav__item>.md-nav__link[href*="category"] {
-    display: flex !important;
 }
 
 /* --- LISTES D'ARTICLES (Accueil et Catégories) --- */
 
-/* Masquer tout sauf le titre et les catégories dans les listes */
+/* Masquer résumés, dates et boutons dans les listes chronologiques */
 .md-post--index .md-post__content> :not(h2):not(.md-post__categories),
 .md-post--index .md-post__meta,
 .md-post--index .md-post__button {
@@ -25,7 +18,7 @@
 .md-post--index {
     margin-bottom: 0.2rem !important;
     padding-bottom: 0.2rem !important;
-    border-bottom: none !important;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
 .md-post--index h2 {
@@ -54,14 +47,12 @@
     content: ")";
 }
 
-/* --- PAGES D'ARTICLES --- */
+/* --- PAGES D'ARTICLES (Relocalisation) --- */
 
-/* Masquer les métadonnées par défaut en haut de l'article */
 .md-post__inner .md-post__meta {
     display: none;
 }
 
-/* Style pour les métadonnées dans la sidebar droite */
 .custom-meta-sidebar {
     margin-top: 2rem;
     padding-top: 1rem;
@@ -74,5 +65,4 @@
     display: block;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
-    letter-spacing: 0.05rem;
 }

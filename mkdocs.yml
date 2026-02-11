@@ -16,12 +16,19 @@ theme:
 
 nav:
   - Accueil: index.md
+  - Physique: category/physique/
+  - Chimie: category/chimie/
+  - IA et Éducation: category/ia-et-education/
 
 plugins:
   - blog:
       blog_dir: .
-      archive: true
+      post_dir: blog/posts
+      archive: false
       categories: true
+      post_url_format: "{categories}/{slug}"
+      pagination: true
+      pagination_per_page: 20
   - search
 
 markdown_extensions:
