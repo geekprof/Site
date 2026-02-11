@@ -1,4 +1,5 @@
 ---
+title: L'étayage des élèves avec l'IA
 date: 2026-02-11
 categories:
   - IA et Éducation

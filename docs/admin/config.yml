@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: geekprof/Site # Votre dépôt GitHub
+  branch: main # Branche à modifier
+  # Pour l'authentification sans Netlify, on utilise souvent un proxy tiers
+  # Ou l'authentification directe GitHub si configurée
+  site_domain: geekprof.github.io
+
+publish_mode: editorial_workflow # Permet de créer des brouillons avant de publier
+
+media_folder: "docs/assets/images" # Où stocker les images uploadées
+public_folder: "/Site/assets/images" # Chemin public vers les images (ajusté pour GitHub Pages /Site/)
+
+collections:
+  - name: "blog"
+    label: "Articles du Blog"
+    folder: "docs/blog/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Titre de l'article", name: "title", widget: "string"}
+      - {label: "Date de publication", name: "date", widget: "date"}
+      - {label: "Catégories", name: "categories", widget: "list", default: ["IA et Éducation"]}
+      - {label: "Contenu (Markdown)", name: "body", widget: "markdown"}
