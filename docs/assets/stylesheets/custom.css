@@ -1,37 +1,78 @@
-/* Masquer les résumés et les dates sur la page d'accueil (index du blog) */
-.md-typeset .md-post--index .md-post__content > p,
-.md-typeset .md-post--index .md-post__meta {
-    display: none;
+/* --- NAVIGATION LATÉRALE GAUCHE --- */
+
+/* Masquer les rubriques automatiques du blog (Archive et Catégories) 
+   pour ne garder que notre menu manuel plus propre. */
+.md-nav__item--nested:has([href*="category"]),
+.md-nav__item--nested:has([href*="archive"]),
+.md-nav__link[href*="archive"] {
+    display: none !important;
 }
 
-/* Style minimalist pour la liste : Titre (Catégorie) */
-.md-typeset .md-post--index {
-    margin-bottom: 0.5rem;
-    padding-bottom: 0.5rem;
+/* Forcer l'affichage de NOS liens manuels (qui sont au premier niveau) */
+.md-nav>.md-nav__list>.md-nav__item>.md-nav__link[href*="category"] {
+    display: flex !important;
 }
 
-.md-typeset .md-post--index h2 {
-    font-size: 1.1rem;
-    margin: 0;
-    display: inline;
+/* --- LISTES D'ARTICLES (Accueil et Catégories) --- */
+
+/* Masquer tout sauf le titre et les catégories dans les listes */
+.md-post--index .md-post__content> :not(h2):not(.md-post__categories),
+.md-post--index .md-post__meta,
+.md-post--index .md-post__button {
+    display: none !important;
 }
 
-/* Afficher la catégorie à côté du titre */
-.md-typeset .md-post--index .md-post__categories {
-    display: inline;
+.md-post--index {
+    margin-bottom: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+    border-bottom: none !important;
+}
+
+.md-post--index h2 {
+    font-size: 1rem !important;
+    margin: 0 !important;
+    display: inline-block;
+}
+
+.md-post--index .md-post__categories {
+    display: inline-block;
     margin-left: 0.5rem;
-    opacity: 0.7;
     font-size: 0.9rem;
+    opacity: 0.6;
 }
 
-.md-typeset .md-post--index .md-post__categories a {
+.md-post--index .md-post__categories a {
     color: inherit;
+    pointer-events: none;
 }
 
-.md-typeset .md-post--index .md-post__categories::before {
+.md-post--index .md-post__categories::before {
     content: "(";
 }
 
-.md-typeset .md-post--index .md-post__categories::after {
+.md-post--index .md-post__categories::after {
     content: ")";
+}
+
+/* --- PAGES D'ARTICLES --- */
+
+/* Masquer les métadonnées par défaut en haut de l'article */
+.md-post__inner .md-post__meta {
+    display: none;
+}
+
+/* Style pour les métadonnées dans la sidebar droite */
+.custom-meta-sidebar {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.custom-meta-sidebar strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
 }

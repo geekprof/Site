@@ -24,11 +24,12 @@ plugins:
   - blog:
       blog_dir: .
       post_dir: blog/posts
-      archive: true
+      archive: false
       categories: true
       post_url_format: "{categories}/{slug}"
       pagination: true
-      pagination_per_page: 10
+      pagination_per_page: 20
+      post_excerpt: none # Ne pas afficher de résumé dans les listes
   - search
 
 markdown_extensions:
@@ -45,6 +46,7 @@ markdown_extensions:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/javascripts/relocate-meta.js
 
 extra_css:
   - assets/stylesheets/custom.css
