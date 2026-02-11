@@ -1,37 +1,46 @@
 /* --- NAVIGATION LATÉRALE GAUCHE --- */
 
-/* Masquer les dossiers "Archive" et "Categories" automatiques 
-   injectés par le plugin blog (car on les gère manuellement). */
+/* Masquer les dossiers "Archive" et "Categories" générés par le plugin blog */
+/* On cible les éléments de navigation qui contiennent ces textes pour éviter les doublons */
+.md-nav__item--nested>.md-nav__link[id^="__nav_"]:is(:has(span:contains("Categories")), :has(span:contains("Archive"))),
 .md-nav__item--nested:has(> .md-nav__link[id^="__nav_"]:is(:has(span:contains("Categories")), :has(span:contains("Archive")))) {
+    display: none !important;
+}
+
+/* Masquer spécifiquement le bloc Archive qui apparaît souvent en double */
+nav.md-nav li.md-nav__item a[href*="archive"] {
     display: none !important;
 }
 
 /* --- LISTES D'ARTICLES (Accueil et Catégories) --- */
 
-/* Masquer résumés, dates et boutons dans les listes chronologiques */
+/* Masquer résumés, dates, auteurs et boutons "Read more" */
 .md-post--index .md-post__content> :not(h2):not(.md-post__categories),
 .md-post--index .md-post__meta,
 .md-post--index .md-post__button {
     display: none !important;
 }
 
+/* Liste serrée et propre */
 .md-post--index {
-    margin-bottom: 0.2rem !important;
-    padding-bottom: 0.2rem !important;
-    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    margin-bottom: 0.1rem !important;
+    padding-bottom: 0.1rem !important;
+    border-bottom: none !important;
 }
 
 .md-post--index h2 {
     font-size: 1rem !important;
     margin: 0 !important;
     display: inline-block;
+    font-weight: normal;
 }
 
+/* Catégorie entre parenthèses */
 .md-post--index .md-post__categories {
     display: inline-block;
     margin-left: 0.5rem;
     font-size: 0.9rem;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .md-post--index .md-post__categories a {
@@ -47,12 +56,14 @@
     content: ")";
 }
 
-/* --- PAGES D'ARTICLES (Relocalisation) --- */
+/* --- PAGES D'ARTICLES --- */
 
+/* Masquer les métadonnées en haut de l'article */
 .md-post__inner .md-post__meta {
     display: none;
 }
 
+/* Sidebar droite : infos de l'article */
 .custom-meta-sidebar {
     margin-top: 2rem;
     padding-top: 1rem;
