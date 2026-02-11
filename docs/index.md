@@ -1,4 +1,4 @@
-# Bienvenue sur le Prof Geek
+# Bienvenue sur les pages du Prof Geek
 
 Ce site regroupe des ressources, des notes et des articles autour de la **Physique-Chimie**, de l'**Intelligence Artificielle** et de la **Pédagogie numérique**.
 
