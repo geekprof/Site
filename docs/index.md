@@ -13,28 +13,28 @@ Ce site regroupe des ressources, des notes et des articles autour de la **Physiq
     ---
     Explorez les concepts de mécanique, de thermodynamique et plus.
     
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/tag/physique/)
+    [:octicons-arrow-right-24: Consulter la rubrique](blog/#physique)
 
 -   :material-flask:{ .lg .middle } __Chimie__
     
     ---
     Réactions, équilibres chimiques et expériences pour la classe.
     
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/tag/chimie/)
+    [:octicons-arrow-right-24: Consulter la rubrique](blog/#chimie)
 
 -   :material-robot-outline:{ .lg .middle } __Intelligence Artificielle__
     
     ---
     Outils, tutoriels et réflexions sur l'IA dans l'éducation.
     
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/tag/ia/)
+    [:octicons-arrow-right-24: Consulter la rubrique](blog/#ia)
 
 -   :material-school-outline:{ .lg .middle } __Éducation__
     
     ---
     Pédagogie, outils numériques et ressources pour les enseignants.
     
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/tag/education/)
+    [:octicons-arrow-right-24: Consulter la rubrique](blog/#education)
 
 </div>
 
