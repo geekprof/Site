@@ -5,6 +5,8 @@ categories:
   - Physique
 ---
 
+<!-- more -->
+
 # Les lois de Kepler selon Feynman
 
 ![Illustration Newton](../../assets/images/diffusion-chaotique-henon_square.svg)

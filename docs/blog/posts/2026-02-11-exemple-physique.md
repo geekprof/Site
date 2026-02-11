@@ -5,7 +5,9 @@ categories:
   - Physique
 ---
 
-# Exemple physique
+<!-- more -->
+
+# Exemple d'article en Physique
 
 Cet article présente un exemple simple de dynamique newtonienne.
 Quand une force nette agit sur un objet, son mouvement évolue.

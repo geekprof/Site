@@ -2,10 +2,13 @@
 title: L'étayage des élèves avec l'IA
 date: 2026-02-11
 categories:
-  - IA et Éducation
+  - IA
+  - Éducation
 ---
 
-# L'étayage des élèves avec l'IA
+<!-- more -->
+
+# L'IA générative : un outil d'étayage puissant
 
 L'intelligence artificielle générative ouvre de nouvelles perspectives pour l'**étayage personnalisé** des élèves. Contrairement à une simple aide qui donnerait la réponse, une IA bien pilotée peut agir comme un tuteur socratique.
 

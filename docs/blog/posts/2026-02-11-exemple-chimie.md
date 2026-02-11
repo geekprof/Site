@@ -5,7 +5,9 @@ categories:
   - Chimie
 ---
 
-# Exemple chimie
+<!-- more -->
+
+# Exemple d'article en Chimie
 
 Voici un court rappel sur l’équilibre d’une réaction chimique.
 Pour une réaction simple, on étudie les concentrations au cours du temps.
