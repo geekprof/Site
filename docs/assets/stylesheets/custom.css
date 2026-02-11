@@ -1,11 +1,12 @@
 /* --- NAVIGATION LATÉRALE GAUCHE --- */
 
-/* Masquer les dossiers "Archive" et "Categories" générés par le plugin blog */
-/* On cible les éléments de navigation qui contiennent ces textes pour éviter les doublons */
-.md-nav__item--nested>.md-nav__link[id^="__nav_"]:is(:has(span:contains("Categories")), :has(span:contains("Archive"))),
-.md-nav__item--nested:has(> .md-nav__link[id^="__nav_"]:is(:has(span:contains("Categories")), :has(span:contains("Archive")))) {
+/* Masquer le dossier "Archive" généré par le plugin blog */
+.md-nav__item--nested>.md-nav__link[id^="__nav_"]:is(:has(span:contains("Archive"))),
+.md-nav__item--nested:has(> .md-nav__link[id^="__nav_"]:is(:has(span:contains("Archive")))) {
     display: none !important;
 }
+
+/* On ne masque plus "Categories" */
 
 /* Masquer spécifiquement le bloc Archive qui apparaît souvent en double */
 nav.md-nav li.md-nav__item a[href*="archive"] {
