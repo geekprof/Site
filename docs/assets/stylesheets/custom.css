@@ -6,8 +6,6 @@
     display: none !important;
 }
 
-/* On ne masque plus "Categories" */
-
 /* Masquer spécifiquement le bloc Archive qui apparaît souvent en double */
 nav.md-nav li.md-nav__item a[href*="archive"] {
     display: none !important;
@@ -15,10 +13,23 @@ nav.md-nav li.md-nav__item a[href*="archive"] {
 
 /* --- LISTES D'ARTICLES (Accueil et Catégories) --- */
 
-/* Masquer résumés, dates, auteurs et boutons "Read more" */
-.md-post--index .md-post__content> :not(h2):not(.md-post__categories),
+/* Masquer TOUT le contenu sauf le titre et les catégories */
+/* On cible large pour être sûr de tout attraper */
+.md-post--index .md-post__content p,
+.md-post--index .md-post__content ul,
+.md-post--index .md-post__content ol,
+.md-post--index .md-post__content pre,
+.md-post--index .md-post__content blockquote,
+.md-post--index .md-post__content figure,
+.md-post--index .md-post__content img,
+.md-post--index .md-post__content .md-typeset,
 .md-post--index .md-post__meta,
 .md-post--index .md-post__button {
+    display: none !important;
+}
+
+/* Sélecteur de secours : masquer les div qui ne sont PAS des titres */
+.md-post--index .md-post__content>div:not(h2) {
     display: none !important;
 }
 
