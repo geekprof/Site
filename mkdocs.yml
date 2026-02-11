@@ -1,4 +1,5 @@
 site_name: Les pages du Prof Geek
+site_url: https://geekprof.github.io/Site/
 
 theme:
   name: material
