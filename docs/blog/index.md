@@ -6,8 +6,7 @@ Retrouvez ici les articles, classés par date et par rubriques.
 
 - [Physique](#physique)
 - [Chimie](#chimie)
-- [IA](#ia)
-- [Éducation](#education)
+- [IA et Éducation](#ia-et-education)
 
 ## Physique
 
@@ -17,12 +16,6 @@ Retrouvez ici les articles, classés par date et par rubriques.
 
 - [Exemple chimie](posts/2026-02-11-exemple-chimie.md)
 
-## IA
+## IA et Éducation
 
-- [Bienvenue sur le blog](posts/2026-02-11-bienvenue.md)
-- [Exemple IA](posts/2026-02-11-exemple-ia.md)
-
-## Éducation
-
-- [Bienvenue sur le blog](posts/2026-02-11-bienvenue.md)
-- [Exemple education](posts/2026-02-11-exemple-education.md)
+- [L'étayage des élèves avec l'IA](posts/2026-02-11-etayage-ia-eleves.md)

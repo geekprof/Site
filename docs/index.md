@@ -22,19 +22,12 @@ Ce site regroupe des ressources, des notes et des articles autour de la **Physiq
     
     [:octicons-arrow-right-24: Consulter la rubrique](blog/#chimie)
 
--   :material-robot-outline:{ .lg .middle } __Intelligence Artificielle__
+-   :material-robot-school:{ .lg .middle } __IA et Éducation__
     
     ---
-    Outils, tutoriels et réflexions sur l'IA dans l'éducation.
+    Outils, tutoriels et réflexions sur l'IA comme levier pédagogique.
     
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/#ia)
-
--   :material-school-outline:{ .lg .middle } __Éducation__
-    
-    ---
-    Pédagogie, outils numériques et ressources pour les enseignants.
-    
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/#education)
+    [:octicons-arrow-right-24: Consulter la rubrique](blog/#ia-et-education)
 
 </div>
 
