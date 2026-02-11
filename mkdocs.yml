@@ -21,7 +21,7 @@ plugins:
   - blog:
       blog_dir: .
       post_dir: blog/posts
-      archive: true
+      archive: false
       categories: true
       post_url_format: "{categories}/{slug}"
       pagination: true
