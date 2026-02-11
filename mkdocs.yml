@@ -1,1 +1,20 @@
 site_name: Site
+
+theme:
+  name: material
+
+nav:
+  - Accueil: index.md
+  - Blog: blog/index.md
+
+plugins:
+  - search
+  - tags
+  - blog
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
