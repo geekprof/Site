@@ -11,7 +11,7 @@ Ce site regroupe des ressources, des notes et des articles autour de la **Physiq
 -   :material-atom:{ .lg .middle } __Physique__
     
     ---
-    Explorez les concepts de mécanique, thermodynamique et plus.
+    Explorez les concepts de mécanique, de thermodynamique et plus.
     
     [:octicons-arrow-right-24: Consulter la rubrique](/blog/category/physique/)
 
