@@ -24,12 +24,11 @@ plugins:
   - blog:
       blog_dir: .
       post_dir: blog/posts
-      archive: false
+      archive: true
       categories: true
       post_url_format: "{categories}/{slug}"
       pagination: true
       pagination_per_page: 20
-      post_excerpt: none # Ne pas afficher de résumé dans les listes
   - search
 
 markdown_extensions:
