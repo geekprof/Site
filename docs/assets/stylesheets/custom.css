@@ -1,0 +1,37 @@
+/* Masquer les résumés et les dates sur la page d'accueil (index du blog) */
+.md-typeset .md-post--index .md-post__content > p,
+.md-typeset .md-post--index .md-post__meta {
+    display: none;
+}
+
+/* Style minimalist pour la liste : Titre (Catégorie) */
+.md-typeset .md-post--index {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.md-typeset .md-post--index h2 {
+    font-size: 1.1rem;
+    margin: 0;
+    display: inline;
+}
+
+/* Afficher la catégorie à côté du titre */
+.md-typeset .md-post--index .md-post__categories {
+    display: inline;
+    margin-left: 0.5rem;
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+.md-typeset .md-post--index .md-post__categories a {
+    color: inherit;
+}
+
+.md-typeset .md-post--index .md-post__categories::before {
+    content: "(";
+}
+
+.md-typeset .md-post--index .md-post__categories::after {
+    content: ")";
+}

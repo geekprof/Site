@@ -1,36 +1,5 @@
 # Bienvenue sur les pages du Prof Geek
 
-Ce site regroupe des ressources, des notes et des articles autour de la **Physique-Chimie**, de l'**Intelligence Artificielle** et de la **Pédagogie numérique**.
+Retrouvez ci-dessous les dernières publications classées par ordre chronologique. Utilisez le menu de gauche pour naviguer par rubriques.
 
 ---
-
-## Explorer par Rubriques
-
-<div class="grid cards" markdown>
-
--   :material-atom:{ .lg .middle } __Physique__
-    
-    ---
-    Explorez les concepts de mécanique, de thermodynamique et plus.
-    
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/category/physique/)
-
--   :material-flask:{ .lg .middle } __Chimie__
-    
-    ---
-    Réactions, équilibres chimiques et expériences pour la classe.
-    
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/category/chimie/)
-
--   :material-robot-outline:{ .lg .middle } __IA et Éducation__
-    
-    ---
-    Outils, tutoriels et réflexions sur l'IA comme levier pédagogique.
-    
-    [:octicons-arrow-right-24: Consulter la rubrique](blog/category/ia-et-education/)
-
-</div>
-
----
-
-Consultez directement le [blog](/blog/) pour voir les derniers articles publiés.

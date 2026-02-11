@@ -1,4 +1,5 @@
 ---
+title: Exemple de Physique
 date: 2026-02-11
 categories:
   - Physique

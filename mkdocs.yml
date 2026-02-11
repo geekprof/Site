@@ -5,21 +5,30 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  language: fr
   features:
-    - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - content.code.copy
     - content.tabs.link
+    - toc.follow
 
 nav:
   - Accueil: index.md
-  - Blog: blog/
+  - Physique: category/physique/
+  - Chimie: category/chimie/
+  - IA et Éducation: category/ia-et-education/
 
 plugins:
   - blog:
-      categories: true
+      blog_dir: .
+      post_dir: blog/posts
       archive: true
+      categories: true
+      post_url_format: "{categories}/{slug}"
+      pagination: true
+      pagination_per_page: 10
   - search
 
 markdown_extensions:
@@ -36,3 +45,6 @@ markdown_extensions:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/stylesheets/custom.css

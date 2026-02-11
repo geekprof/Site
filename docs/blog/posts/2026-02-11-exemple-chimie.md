@@ -1,4 +1,5 @@
 ---
+title: Exemple de Chimie
 date: 2026-02-11
 categories:
   - Chimie
