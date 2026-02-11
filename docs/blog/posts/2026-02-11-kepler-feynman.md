@@ -6,7 +6,7 @@ categories:
 
 # Les lois de Kepler selon Feynman
 
-![Illustration Newton](assets/images/diffusion-chaotique-henon_square.svg)
+![Illustration Newton](../../assets/images/diffusion-chaotique-henon_square.svg)
 
 ## 1re partie : la loi des aires
 
@@ -29,7 +29,7 @@ Ainsi, les segments $AB$ et $Bc$ ont la même longueur et les droites $(AB)$ et 
 #### Effet de l’impulsion due au Soleil
 En $B$, une « impulsion » due au Soleil modifie la vitesse dans la direction de la droite $(SB)$ (force centrale). On représente cette déviation en traçant, à partir de $c$, un segment $[cC]$ dont la droite support est parallèle à $(SB)$. Le point $C$ est alors la position réelle au bout du second intervalle de temps.
 
-![Figure géometrique Newton](assets/images/Gemini_Generated_Image_7oyliv7oyliv7oyl.png)
+![Figure géometrique Newton](../../assets/images/Gemini_Generated_Image_7oyliv7oyliv7oyl.png)
 
 *Attention au repère temporel : $B$ correspond à $t_0+\Delta t$ et $C$ correspond à $t_0+2\Delta t$.*
 
