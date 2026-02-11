@@ -1,5 +1,7 @@
 site_name: Les pages du Prof Geek
 site_url: https://geekprof.github.io/Site/
+repo_url: https://github.com/geekprof/Site
+edit_uri: edit/main/docs/
 
 theme:
   name: material
