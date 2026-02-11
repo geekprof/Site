@@ -12,14 +12,11 @@ theme:
 
 nav:
   - Accueil: index.md
-  - Blog: blog/index.md
+  - Blog: blog/
 
 plugins:
   - search
-  - tags
   - blog:
-      blog_dir: blog
-      post_dir: blog/posts
       archive: true
       categories: true
 
