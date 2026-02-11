@@ -5,8 +5,6 @@ categories:
   - Physique
 ---
 
-<!-- more -->
-
 # Les lois de Kepler selon Feynman
 
 ![Illustration Newton](../../assets/images/diffusion-chaotique-henon_square.svg)
@@ -16,7 +14,7 @@ categories:
 On vise ici la 2e loi de Kepler : **aires égales en temps égaux** (démonstration de Newton).
 On considère une planète soumise à une force centrale, c’est-à-dire toujours dirigée vers le Soleil, noté $S$. On veut montrer que, pour des intervalles de temps égaux $\Delta t$, le rayon vecteur $\overrightarrow{SP}$ balaie des aires égales.
 
----
+<!-- more -->
 
 ### 1) Idée de Newton : « impulsions » successives
 Pour raisonner géométriquement, Newton remplace l’action gravitationnelle continue par une suite d’impulsions brèves appliquées à intervalles réguliers $\Delta t$. Entre deux impulsions, le mouvement est rectiligne uniforme (principe d’inertie). Ensuite, on fait tendre $\Delta t$ vers 0 pour retrouver la trajectoire réelle.
