@@ -22,7 +22,7 @@ Ce site regroupe des ressources, des notes et des articles autour de la **Physiq
     
     [:octicons-arrow-right-24: Consulter la rubrique](blog/#chimie)
 
--   :material-robot-school:{ .lg .middle } __IA et Éducation__
+-   :material-robot-outline:{ .lg .middle } __IA et Éducation__
     
     ---
     Outils, tutoriels et réflexions sur l'IA comme levier pédagogique.
